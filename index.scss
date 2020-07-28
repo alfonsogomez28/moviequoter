@@ -1,4 +1,4 @@
-$main: grey;
+$main: #b0aaaa;
 html {
   font-size: 20px;
   @media (max-width: 600px){
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #ffff;
+  background-color: gainsboro !important;
   background-size: 1800px 600px;
   font-family: 'righteous', sans-serif;
   text-align: center;
@@ -29,12 +29,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gold;
 }
 
 %box {
   width: 50%;
   padding: 20px;
-  background-color: white;
+  background-color: blue;
   @media (max-width: 800px){
     width:80%;
     padding: 10px;
@@ -63,6 +64,7 @@ button {
 }
 
 footer {
-  color: white;
+  color: gainsboro;
   margin-top: 10px;
 }
+

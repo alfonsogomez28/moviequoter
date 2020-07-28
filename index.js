@@ -19,8 +19,8 @@ $(document).ready(function() {
     quote: "You're gonna need a bigger boat.",
     film: "Jaws"
   }, {
-    quote: "There's no place like home",
-    film: "The Wizard of Oz"
+    quote: "I am Groot",
+    film: "Guardians of the Galaxy"
   }, {
     quote: "Show me the money!",
     film: "Jerry Maguire"
@@ -31,10 +31,10 @@ $(document).ready(function() {
     quote: "Houston, we have a problem.",
     film: "Apollo 13"
   }, {
-    quote: "Well, nobody's perfect.",
-    film: "Some Like It Hot"
+    quote: "You gonna eat your tots?",
+    film: "Napoleon Dynamite"
   }, {
-    quote: "Say “hello” to my little friend!",
+    quote: "Say ï¿½helloï¿½ to my little friend!",
     film: "Scarface"
   }, {
     quote: "Bond. James Bond.",
@@ -57,16 +57,20 @@ $(document).ready(function() {
   }, {
     quote: "Hasta la vista, baby.",
     film: "Terminator 2: Judgment Day"
+  }, {
+    quote: "Ogres are like onions",
+    film: "Shrek"
+  }, {
+    quote: "Wilsoooooooon!",
+    film: "Cast Away"
+  }, {
+    quote: "Why so serious?",
+    film: "The Dark Knight"
   }];
 
   //declare variables 
   var randomMovieQuote = "";
   var randomFilmName = "";
-
-  //tweet current quote and film
-  function tweet() {
-    window.open("https://twitter.com/intent/tweet?text= " + randomMovieQuote + " - " + randomFilmName);
-  }
 
   /*function to obtain a random quote and display in html*/
   function randomQuote() {
