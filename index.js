@@ -1,8 +1,8 @@
-/*Simple Movie quoter app with tweet quote function for Free Code Camp* Using Bootstrap and Jquery*/
+
 
 $(document).ready(function() {
 
-  //Array with selected quotes and films
+  //Build array for quotes
   var quoteArray = [{
     quote: "Frankly, my dear, I don't give a damn.",
     film: "Gone With the Wind"
@@ -34,7 +34,7 @@ $(document).ready(function() {
     quote: "You gonna eat your tots?",
     film: "Napoleon Dynamite"
   }, {
-    quote: "Say �hello� to my little friend!",
+    quote: "Say 'hello' to my little friend!",
     film: "Scarface"
   }, {
     quote: "Bond. James Bond.",
@@ -68,11 +68,11 @@ $(document).ready(function() {
     film: "The Dark Knight"
   }];
 
-  //declare variables 
+  //variable declaration
   var randomMovieQuote = "";
   var randomFilmName = "";
 
-  /*function to obtain a random quote and display in html*/
+  /*function to pull a random quote and display on page*/
   function randomQuote() {
     random = Math.floor(Math.random() * quoteArray.length);
     randomMovieQuote = quoteArray[random].quote;
